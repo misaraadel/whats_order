@@ -236,8 +236,8 @@ header{
       justify-content: space-between;
 
       .image-content img {
-        width: 65px;
-        height: 65px;
+        width: 120px;
+        height: 130px;
         object-fit: cover;
         object-position: center;
       }
@@ -247,10 +247,10 @@ header{
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
 
         h3 {
-          font-size: 10px;
+          font-size: 14px;
           font-weight: 700;
           color: #000;
           line-height: 11px;
@@ -258,14 +258,14 @@ header{
         }
 
         p {
-          font-size: 8px;
+          font-size: 11px;
           font-weight: 500;
           color: #606060;
-          margin: 0px;
+          margin: 10px 0px;
         }
 
         a {
-          font-size: 8px;
+          font-size: 11px;
           color: #000;
           font-weight: 700;
           margin: 0px;
@@ -276,18 +276,18 @@ header{
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
 
         p {
           color: #000;
-          font-size: 10px;
+          font-size: 14px;
           font-weight: 700;
-          margin: 0px;
+          margin: 0px 0px 10px;
         }
 
         .add-to-cart {
-          width: 55px;
-          height: 20px;
+          width: 79px;
+          height: 40px;
           background-color: #E5E5E5;
           border: 0px;
           outline: none;
@@ -336,27 +336,26 @@ header{
 
   .general-card{
       width: 100%;
-      padding: 22px 20px;
+      padding: 10px 15px;
       background-color: #fff;
-      border-radius: 36px;
+      border-radius: 10px;
 
       .heading-contain{
           width: 100%;
           text-align: center;
 
           h4{
-              color: #000;
-              font-size: 36px;
-              font-weight: 900;
-              line-height: 55px;
-              margin-bottom: 16px;
+            color: #000;
+            font-size: 16px;
+            font-weight: 900;
+            margin-bottom: 10px;
           }
 
           p{
-              color: #000;
-              font-size: 16px;
-              font-weight: 500;
-              margin: 0px;
+            color: #000;
+            font-size: 12px;
+            font-weight: 500;
+            margin: 0px;
           }
       }
   }
@@ -375,51 +374,50 @@ header{
 
   .cart{
     .form-contain{
-      margin-top: 27px;
+      margin-top: 10px;
       width: 100%;
     }
   }
 
   .form-group{
       width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
 
       .label-contain{
           color: #000;
-          font-size: 16px;
+          font-size: 12px;
           font-weight: 500;
-          line-height: 25px;
-          margin-bottom: 10px;
+          margin-bottom: 5px;
       }
 
       .form-control{
-          width: 100%;
-          height: 56px;
-          background-color: transparent;
-          border: none;
-          border-radius: 40px;
-          box-shadow: 0px 0px 6px rgba($color: #000000, $alpha: .10);
-          color: #000;
-          font-size: 16px;
-          padding: 0px 18px;
-          font-weight: 500;
+        width: 100%;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        border-radius: 40px;
+        box-shadow: 0px 0px 6px rgba($color: #000000, $alpha: .10);
+        color: #000;
+        font-size: 16px;
+        padding: 0px 18px;
+        font-weight: 500;
 
-          &::placeholder{
-              color: rgba($color: #000000, $alpha: .6);
-              font-size: 16px;
-              font-weight: 500;
-              line-height: 25px;
-          }
+        &::placeholder{
+          color: rgba($color: #000000, $alpha: .6);
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 25px;
+        }
       }
   }
 
   .cart-contain{
     .product-list{
       width: 100%;
-      padding: 15px 10px;
+      padding: 12px 10px;
       background-color: #F6F6F6;
       border-radius: 13px;
-      margin-top: 27px;
+      margin-top: 14px;
 
       .product-row{
         width: 100%;
@@ -427,7 +425,7 @@ header{
         align-content: center;
         align-items: center;
         justify-content: space-between;
-        padding: 15px 0px;
+        padding: 10px 0px;
         border-bottom: 1px solid rgba($color: #707070 , $alpha: .10);
 
         .button{

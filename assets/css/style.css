@@ -1491,8 +1491,8 @@ header .data .brand-name img {
 }
 
 .product .product-contain .product-box .image-content img {
-  width: 65px;
-  height: 65px;
+  width: 120px;
+  height: 130px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -1509,13 +1509,13 @@ header .data .brand-name img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .product .product-contain .product-box .content h3 {
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 700;
   color: #000;
   line-height: 11px;
@@ -1523,14 +1523,14 @@ header .data .brand-name img {
 }
 
 .product .product-contain .product-box .content p {
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 500;
   color: #606060;
-  margin: 0px;
+  margin: 10px 0px;
 }
 
 .product .product-contain .product-box .content a {
-  font-size: 8px;
+  font-size: 11px;
   color: #000;
   font-weight: 700;
   margin: 0px;
@@ -1545,21 +1545,21 @@ header .data .brand-name img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .product .product-contain .product-box .button-contain p {
   color: #000;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 700;
-  margin: 0px;
+  margin: 0px 0px 10px;
 }
 
 .product .product-contain .product-box .button-contain .add-to-cart {
-  width: 55px;
-  height: 20px;
+  width: 79px;
+  height: 40px;
   background-color: #E5E5E5;
   border: 0px;
   outline: none;
@@ -1613,9 +1613,9 @@ header .data .brand-name img {
 
 .product .general-card {
   width: 100%;
-  padding: 22px 20px;
+  padding: 10px 15px;
   background-color: #fff;
-  border-radius: 36px;
+  border-radius: 10px;
 }
 
 .product .general-card .heading-contain {
@@ -1625,15 +1625,14 @@ header .data .brand-name img {
 
 .product .general-card .heading-contain h4 {
   color: #000;
-  font-size: 36px;
+  font-size: 16px;
   font-weight: 900;
-  line-height: 55px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .product .general-card .heading-contain p {
   color: #000;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   margin: 0px;
 }
@@ -1651,26 +1650,25 @@ header .data .brand-name img {
 }
 
 .product .cart .form-contain {
-  margin-top: 27px;
+  margin-top: 10px;
   width: 100%;
 }
 
 .product .form-group {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .product .form-group .label-contain {
   color: #000;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
-  line-height: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .product .form-group .form-control {
   width: 100%;
-  height: 56px;
+  height: 40px;
   background-color: transparent;
   border: none;
   border-radius: 40px;
@@ -1684,38 +1682,38 @@ header .data .brand-name img {
 
 .product .form-group .form-control::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.6);
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   line-height: 25px;
 }
 
 .product .form-group .form-control:-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.6);
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   line-height: 25px;
 }
 
 .product .form-group .form-control::-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.6);
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   line-height: 25px;
 }
 
 .product .form-group .form-control::placeholder {
   color: rgba(0, 0, 0, 0.6);
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   line-height: 25px;
 }
 
 .product .cart-contain .product-list {
   width: 100%;
-  padding: 15px 10px;
+  padding: 12px 10px;
   background-color: #F6F6F6;
   border-radius: 13px;
-  margin-top: 27px;
+  margin-top: 14px;
 }
 
 .product .cart-contain .product-list .product-row {
@@ -1731,7 +1729,7 @@ header .data .brand-name img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 15px 0px;
+  padding: 10px 0px;
   border-bottom: 1px solid rgba(112, 112, 112, 0.1);
 }
 
