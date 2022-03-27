@@ -1491,7 +1491,7 @@ header .data .brand-name img {
 
 .product .product-contain .product-box .image-content img {
   width: 120px;
-  height: 130px;
+  height: 140px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -1499,7 +1499,7 @@ header .data .brand-name img {
 }
 
 .product .product-contain .product-box .content {
-  padding: 0px 10px;
+  padding: 10px 10px;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1517,7 +1517,6 @@ header .data .brand-name img {
   font-size: 14px;
   font-weight: 700;
   color: #000;
-  line-height: 11px;
   margin: 0px;
 }
 
@@ -1525,7 +1524,7 @@ header .data .brand-name img {
   font-size: 11px;
   font-weight: 500;
   color: #606060;
-  margin: 10px 0px;
+  margin: 12px 0px;
 }
 
 .product .product-contain .product-box .content a {
